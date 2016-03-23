@@ -1,0 +1,875 @@
+New log file opened at Tue Mar 22 23:39:44 GMT 2016 by 6364@DESKTOP-7UG7O8D
+jvm 6364@DESKTOP-7UG7O8D
+jvm vmName=Java HotSpot(TM) Client VM vmVendor=Oracle Corporation vmVersion=25.66-b18
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\project, returning: (dev-fyp-aws-storage-service-build)
+Loading project definition from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@c44874, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service, returning: (dev-fyp-aws-storage-service)
+Set current project to FYP-AWS-Storage-Service (in build file:/C:/Users/pc/dev/fyp/fyp-dev/DEV-FYP-AWS-Storage-Service/)
+Reapplying settings...
+Set current project to FYP-AWS-Storage-Service (in build file:/C:/Users/pc/dev/fyp/fyp-dev/DEV-FYP-AWS-Storage-Service/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/fyp-dev/DEV-FYP-AWS-Storage-Service/}dev-fyp-aws-storage-service/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5f16a6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 22-Mar-2016 23:39:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/fyp-dev/DEV-FYP-AWS-Storage-Service/}dev-fyp-aws-storage-service/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@1b067a1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 22-Mar-2016 23:39:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/fyp-dev/DEV-FYP-AWS-Storage-Service/}dev-fyp-aws-storage-service/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@96dc8d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 22-Mar-2016 23:39:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/fyp-dev/DEV-FYP-AWS-Storage-Service/}dev-fyp-aws-storage-service/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@14f1cac, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 22-Mar-2016 23:39:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d75912, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 16769ea, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 2.745126985 s
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala source file has the following implicit definitions changed:
+	pimpRouteWithConcatenation, segmentStringToPathMatcher, actorRefFactory, actorSystem, string2NR, symbol2NR, stringExtractionPair2PathMatcher, valueMap2PathMatcher, stringOptionNameReceptacle2PathMatcher, regex2PathMatcher.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 22-Mar-2016 23:40:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.server.SSServer
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@568f95, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 22-Mar-2016 23:40:30
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1a78039, check cycles: false
+Total time: 0 s, completed 22-Mar-2016 23:40:53
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+> server-handle-next-server-request
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@112186a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 1b0c140, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 0.397095885 s
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 22-Mar-2016 23:42:44
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@166feec, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 8a8865, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 0.536321326 s
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala source file has the following regular definitions changed:
+	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, timeStamp, notifyAll, isInstanceOf, ==, clone, ProcessControllerHelper, getDateFileTag, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 22-Mar-2016 23:45:25
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6ccc30, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\support\StorageServiceHelper.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 67b9c0, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 0.541464724 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 22-Mar-2016 23:45:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@430b39, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 1da059, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 0.674522107 s
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 22-Mar-2016 23:45:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@187b7c7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 15bedac, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 0.899416123 s
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala source file has the following implicit definitions changed:
+	formats.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 22-Mar-2016 23:49:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@ffcf91, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 362e7f, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Read from stdout: C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:43: ')' expected but '}' found.
+C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:43: ')' expected but '}' found.
+Read from stdout: }
+      }
+Read from stdout: ^
+      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 22-Mar-2016 23:55:44
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@a0ad6b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 967e03, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Read from stdout: C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:38: wrong number of parameters; expected = 2
+C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:38: wrong number of parameters; expected = 2
+Read from stdout: path("storageServices" / "s3" / "processControllers" / "processA" / "withObject" / Segment / "andDestination" / Segment ) { obj =>
+        path("storageServices" / "s3" / "processControllers" / "processA" / "withObject" / Segment / "andDestination" / Segment ) { obj =>
+Read from stdout: ^
+                                                                                                                                        ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 22-Mar-2016 23:56:29
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@195e242, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 1391495, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Read from stdout: C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:39: could not find implicit value for parameter marshaller: spray.httpx.marshalling.ToResponseMarshaller[Unit]
+C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:39: could not find implicit value for parameter marshaller: spray.httpx.marshalling.ToResponseMarshaller[Unit]
+Read from stdout: complete {
+          complete {
+Read from stdout: ^
+                   ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 22-Mar-2016 23:57:48
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1a3466b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler fa245a, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Read from stdout: C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:40: could not find implicit value for parameter marshaller: spray.httpx.marshalling.ToResponseMarshaller[Unit]
+C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala:40: could not find implicit value for parameter marshaller: spray.httpx.marshalling.ToResponseMarshaller[Unit]
+Read from stdout: StorageService.writeObjectToS3(data,fileName)
+             StorageService.writeObjectToS3(data,fileName)
+Read from stdout: ^
+                                           ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 22-Mar-2016 23:59:06
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@576a75, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala, C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala, C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala, C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+
+Read from stdout: Compiling 2 Scala sources to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 2 Scala sources to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 10ce76d, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 1.95369102 s
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala source file has the following regular definitions changed:
+	store_pcs_processA.
+All member reference dependencies will be considered within this context.
+Invalidating C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala)
+The C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\services\StorageService.scala source file has the following regular definitions changed:
+	writeObjectToS3.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala: Set(writeObjectToS3)
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 22-Mar-2016 23:59:38
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.server.SSServer
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1911920, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 23-Mar-2016 00:07:09
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@6d61e8, check cycles: false
+Total time: 0 s, completed 23-Mar-2016 00:07:36
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-3" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+> server-handle-next-server-request
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7c7a2b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\src\main\scala\com\server\SSServer.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 118531b, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\Users\pc\dev\fyp\fyp-dev\DEV-FYP-AWS-Storage-Service\target\scala-2.10\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.10\jars\parboiled-scala_2.10-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.10\bundles\spray-client_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.10\jars\json4s-native_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.4.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\pc\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\com.github.seratch\awscala_2.10\jars\awscala_2.10-0.5.5.jar;C:\Users\pc\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.6.jar;C:\Users\pc\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.3.jar;C:\Users\pc\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.3.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.0.jar;C:\Users\pc\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.3.jar;C:\Users\pc\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.jar;C:\Users\pc\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk\jars\aws-java-sdk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-support\jars\aws-java-sdk-support-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-core\jars\aws-java-sdk-core-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpledb\jars\aws-java-sdk-simpledb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-simpleworkflow\jars\aws-java-sdk-simpleworkflow-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-storagegateway\jars\aws-java-sdk-storagegateway-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-route53\jars\aws-java-sdk-route53-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-s3\jars\aws-java-sdk-s3-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kms\jars\aws-java-sdk-kms-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-importexport\jars\aws-java-sdk-importexport-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sts\jars\aws-java-sdk-sts-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sqs\jars\aws-java-sdk-sqs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-rds\jars\aws-java-sdk-rds-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-redshift\jars\aws-java-sdk-redshift-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticbeanstalk\jars\aws-java-sdk-elasticbeanstalk-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-glacier\jars\aws-java-sdk-glacier-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-sns\jars\aws-java-sdk-sns-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iam\jars\aws-java-sdk-iam-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-datapipeline\jars\aws-java-sdk-datapipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticloadbalancing\jars\aws-java-sdk-elasticloadbalancing-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-emr\jars\aws-java-sdk-emr-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticache\jars\aws-java-sdk-elasticache-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elastictranscoder\jars\aws-java-sdk-elastictranscoder-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ec2\jars\aws-java-sdk-ec2-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-dynamodb\jars\aws-java-sdk-dynamodb-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudtrail\jars\aws-java-sdk-cloudtrail-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatch\jars\aws-java-sdk-cloudwatch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-logs\jars\aws-java-sdk-logs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitoidentity\jars\aws-java-sdk-cognitoidentity-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cognitosync\jars\aws-java-sdk-cognitosync-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudformation\jars\aws-java-sdk-cloudformation-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudfront\jars\aws-java-sdk-cloudfront-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-kinesis\jars\aws-java-sdk-kinesis-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-opsworks\jars\aws-java-sdk-opsworks-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ses\jars\aws-java-sdk-ses-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-autoscaling\jars\aws-java-sdk-autoscaling-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudsearch\jars\aws-java-sdk-cloudsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudwatchmetrics\jars\aws-java-sdk-cloudwatchmetrics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-swf-libraries\jars\aws-java-sdk-swf-libraries-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codedeploy\jars\aws-java-sdk-codedeploy-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codepipeline\jars\aws-java-sdk-codepipeline-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-config\jars\aws-java-sdk-config-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-lambda\jars\aws-java-sdk-lambda-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ecs\jars\aws-java-sdk-ecs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-cloudhsm\jars\aws-java-sdk-cloudhsm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-ssm\jars\aws-java-sdk-ssm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-workspaces\jars\aws-java-sdk-workspaces-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-machinelearning\jars\aws-java-sdk-machinelearning-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-directory\jars\aws-java-sdk-directory-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-efs\jars\aws-java-sdk-efs-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-codecommit\jars\aws-java-sdk-codecommit-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-devicefarm\jars\aws-java-sdk-devicefarm-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-elasticsearch\jars\aws-java-sdk-elasticsearch-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-marketplacecommerceanalytics\jars\aws-java-sdk-marketplacecommerceanalytics-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-inspector\jars\aws-java-sdk-inspector-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-iot\jars\aws-java-sdk-iot-1.10.37.jar;C:\Users\pc\.ivy2\cache\com.amazonaws\aws-java-sdk-api-gateway\jars\aws-java-sdk-api-gateway-1.10.37.jar
+Scala compilation took 1.58097956 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 23-Mar-2016 00:07:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.server.SSServer
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1556250, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 23-Mar-2016 00:07:51
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@6c53ac, check cycles: false
+Total time: 0 s, completed 23-Mar-2016 00:08:53
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-5" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> server-handle-next-server-request
+> backgroundRunMain com.server.SSServer
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1dae500, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 23-Mar-2016 00:35:00
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@e65a9b, check cycles: false
+Total time: 0 s, completed 23-Mar-2016 01:29:12
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-7" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 6364@DESKTOP-7UG7O8D logs at Wed Mar 23 01:30:44 GMT 2016, goodbye.
