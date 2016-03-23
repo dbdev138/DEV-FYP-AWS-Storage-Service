@@ -28,8 +28,8 @@ object StorageService {
         pw.write(data);
         pw.close();
         
-        val accessKeyId = "AKIAJWMAYENFLOUTQ72A" 
-        val secretAccessKey = "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"
+        val accessKeyId = "xxxxxxxxxxxxxxxxxxxxxx" 
+        val secretAccessKey = "xxxxxxxxxxxxxxxxxxxxxxxx"
         
         val cred: AWSCredentials = new BasicAWSCredentials(accessKeyId, secretAccessKey)
         // AWSCredentials cred = new BasicAWSCredentials(accessKeyId, secretAccessKey);
